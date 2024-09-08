@@ -1,5 +1,7 @@
 <html>
 <head>
+	<meta property="og:site_name" content="Snake Game" />
+	<meta property="og:title" content="Snake Game" />
 	<title>Snake Game</title>
 </head>
 
