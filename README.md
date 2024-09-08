@@ -1,16 +1,6 @@
 <html>
 <head>
 	<title>Snake Game</title>
-	<meta property="og:site_name" content="Your New Site Name" />
-  
-	<!-- JavaScript to override the meta tags dynamically -->
-	<script>
-	document.title = "Your Site Title";
-	const ogTag = document.querySelector('meta[property="og:site_name"]');
-	if (ogTag) {
-		ogTag.setAttribute('content', 'Your New Site Name');
-    	}
-  	</script>
 </head>
 
 <body style = "background-color: limegreen;">
