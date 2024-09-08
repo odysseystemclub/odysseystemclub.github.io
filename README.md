@@ -5,7 +5,7 @@
 </head>
 
 <body>
-	<canvas id="canvas" width="200" height="200"></canvas>
+	<canvas id="canvas" width="400" height="400"></canvas>
 
 	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
 
@@ -16,14 +16,14 @@
 		var width = canvas.width;
 		var height = canvas.height;
 		// Work out the width and height in blocks
-		var blockSize = 10;
+		var blockSize = 20;
 		var widthInBlocks = width / blockSize;
 		var heightInBlocks = height / blockSize;
 		// Set score to 0
 		var score = 0;
 	// Draw the border
 		var drawBorder = function () {
-			ctx.fillStyle = "Gray";
+			ctx.fillStyle = "Orange";
 			ctx.fillRect(0, 0, width, blockSize);
 			ctx.fillRect(0, height - blockSize, width, blockSize);
 			ctx.fillRect(0, 0, blockSize, height);
@@ -31,7 +31,7 @@
 		};
 		// Draw the score in the top-left corner
 		var drawScore = function () {
-			ctx.font = "20px Courier";
+			ctx.font = "20px Times New Roman";
 			ctx.fillStyle = "Black";
 			ctx.textAlign = "left";
 			ctx.textBaseline = "top";
@@ -40,11 +40,17 @@
 		// Clear the interval and display Game Over text
 		var gameOver = function () {
 			clearInterval(intervalId);
-			ctx.font = "30px Courier";
+			ctx.font = "30px Times New Roman";
 			ctx.fillStyle = "Black";
 			ctx.textAlign = "center";
 			ctx.textBaseline = "middle";
 			ctx.fillText("Game Over", width / 2, height / 2);
+
+   			ctx.font = "20px Times New Roman";
+      			ctx.fillStyles = "Black";
+	 		ctx.textAlign = "center";
+    			ctx.textBasline = "middle";
+   			ctx.fillText("Refresh the page to play again", width / 2, height / 2);
 		};
 		// Draw a circle (using the function from Chapter 14)
 		var circle = function (x, y, radius, fillCircle) {
