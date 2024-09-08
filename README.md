@@ -46,9 +46,9 @@
 			ctx.fillText("Game Over", width / 2, height / 2);
 
    			ctx.font = "20px Times New Roman";
-      			ctx.fillStyles = "Black";
+      			ctx.fillStyle = "Black";
 	 		ctx.textAlign = "center";
-    			ctx.textBasline = "bottom";
+    			ctx.textBaseline = "bottom";
    			ctx.fillText("Refresh the page to play again", width / 2, height / 2);
 		};
 		// Draw a circle (using the function from Chapter 14)
