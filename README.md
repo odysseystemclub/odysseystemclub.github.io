@@ -48,7 +48,7 @@
 
    			ctx.font = "20px Times New Roman";
       			ctx.fillStyles = "Black";
-	 		ctx.textAlign = "center";
+	 		ctx.textAlign = "bottom";
     			ctx.textBasline = "middle";
    			ctx.fillText("Refresh the page to play again", width / 2, height / 2);
 		};
