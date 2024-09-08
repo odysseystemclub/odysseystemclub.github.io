@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Snake</title>
+	<title>Snake Game</title>
 </head>
 
 <body style = "background-color: limegreen;">
