@@ -48,7 +48,7 @@
    			ctx.font = "20px Times New Roman";
       			ctx.fillStyle = "Black";
 	 		ctx.textAlign = "center";
-    			ctx.textBaseline = "bottom";
+    			ctx.textBaseline = "top";
    			ctx.fillText("Refresh the page to play again", width / 2, height / 2);
 		};
 		// Draw a circle (using the function from Chapter 14)
