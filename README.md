@@ -42,7 +42,7 @@
 			ctx.font = "30px Times New Roman";
 			ctx.fillStyle = "Black";
 			ctx.textAlign = "center";
-			ctx.textBaseline = "middle";
+			ctx.textBaseline = "bottom";
 			ctx.fillText("Game Over", width / 2, height / 2);
 
    			ctx.font = "20px Times New Roman";
