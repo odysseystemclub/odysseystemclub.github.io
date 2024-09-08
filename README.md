@@ -159,7 +159,7 @@
 		};
 		// Draw a circle at the apple's location
 		Apple.prototype.draw = function () {
-			this.position.drawCircle("LimeGreen");
+			this.position.drawCircle("Red");
 		};
 		// Move the apple to a new random location
 		Apple.prototype.move = function () {
