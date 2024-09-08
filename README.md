@@ -1,3 +1,4 @@
+Snake Game
 <html>
 <head>
 	<title>Snake Game</title>
