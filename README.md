@@ -3,7 +3,7 @@
 	<title>Snake</title>
 </head>
 
-<body>
+<body style = "background-color: green;">
 	<canvas id="canvas" width="400" height="400"></canvas>
 
 	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
