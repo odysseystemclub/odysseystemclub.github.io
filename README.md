@@ -4,7 +4,7 @@
 </head>
 
 <body style = "background-color: limegreen;">
-	<p>hello</p>
+	<p><font size="+2">Snake Game</font></p>
 	<canvas id="canvas" width="400" height="400"></canvas>
 
 	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
